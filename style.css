@@ -1,10 +1,9 @@
 body {
     text-align: center;
-    background: (#00fffb 0%, #0080ff 100%);
+    background: linear-gradient(#00fffb 0%, #0080ff 100%);
 }
 
-
-#line {
+.line {
     height: 6px;
     width: 70px;
     margin: 8px auto;
@@ -34,5 +33,9 @@ body {
 }
 
 .links:hover {
-    background-color: cornsilk
+    background-color: lightcyan;
+}
+
+#top {
+    text-align: center;
 }
