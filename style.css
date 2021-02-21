@@ -39,3 +39,12 @@ body {
 #top {
     text-align: center;
 }
+
+img {
+    transform: .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
